@@ -2,6 +2,13 @@
 
 Data Lake Frontend
 
+## deployment
+
+```bash
+docker build . -t datalake-front
+docker run -p 3006:3006 -t datalake-front
+```
+
 ## development
 
 install node
